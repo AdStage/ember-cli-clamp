@@ -104,6 +104,6 @@ export default Ember.Component.extend({
    * @returns {undefined}
    */
   clamp: function() {
-    $clamp(this.get('element'), {clamp: this.get('lines'), useNativeClamp: false});
+    $clamp(this.get('element'), {clamp: this.get('lines')});
   }
 });
